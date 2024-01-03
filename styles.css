@@ -1,0 +1,161 @@
+/* ... (previous styles) ... */
+
+/* Update the background color with a gradient for an attractive look */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #FF6B6B, #6B66FF); /* Gradient background with vibrant colors */
+    color: #fff; /* Set text color to white for better readability */
+  }
+  
+  /* ... (remaining styles) ... */
+  
+  /* Center the content vertically and horizontally */
+  body, html {
+    height: 100%;
+  }
+  
+  /* Navigation Menu */
+  #navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center the menu items horizontally */
+  }
+  
+  #navbar ul li {
+    margin: 0 15px; /* Add some space between menu items */
+  }
+  
+  #navbar ul li a {
+    display: flex;
+    align-items: center; /* Center the icon and text vertically */
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #navbar ul li a i {
+    margin-right: 8px;
+  }
+  
+  #navbar ul li a:hover {
+    background-color: #555;
+  }
+  
+  /* Active state for the current page */
+  #navbar ul li a.visited {
+    background-color: #555;
+  }
+  
+  section {
+    padding: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+    color: #333; /* Text color for sections */
+    background-color: #fff; /* White background for sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+  }
+  
+  /* Styles when scrolling */
+  .nav-scrolled {
+    background-color: #222;
+  }
+  
+  .nav-scrolled ul li a {
+    color: #fff;
+  }
+  
+  .nav-scrolled ul li a:hover {
+    background-color: #444;
+  }
+/* ... (previous styles) ... */
+
+/* Change icon color on hover */
+#navbar ul li a i:hover {
+    color: #ff4500; /* Change to your preferred color */
+  }
+  
+  /* Update the background color for improved aesthetics */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f7f6; /* Light beige background color */
+  }
+  /* ... (previous styles) ... */
+
+/* Style the header section */
+#header {
+    background-color: #333; /* Dark background color for the header */
+    color: #fff; /* Text color for the company name */
+    text-align: center; /* Center-align the company name */
+    padding: 20px 0; /* Add padding around the company name */
+  }
+  
+  /* Style the company name */
+  #header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 24px; /* Adjust font size as needed */
+  }
+  /* ... (other CSS styles) ... */
+
+/* Card-like styling for sections */
+/* ... (other CSS styles) ... */
+
+/* Base styling for sections (cards) */
+section {
+    background-color: #fff; /* Background color for the card */
+    border-radius: 12px; /* Rounded corners for the card */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Shadow for the card */
+    padding: 30px; /* Padding inside the card */
+    margin: 20px; /* Margin around the card */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions for hover effects */
+    overflow: hidden; /* Ensure content stays within the card */
+  }
+  
+  /* Hover effect for the card */
+  section:hover {
+    transform: translateY(-10px); /* Move the card slightly upwards on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover for depth effect */
+  }
+  
+  /* Additional styling for an attractive card appearance */
+  section h2 {
+    color: #333; /* Header color */
+    margin-bottom: 10px; /* Spacing below the header */
+  }
+  
+  section p {
+    color: #666; /* Paragraph text color */
+    font-size: 16px; /* Font size for paragraph text */
+    line-height: 1.6; /* Line height for better readability */
+  }
+  
+  /* Add a subtle border to the card for separation */
+  section {
+    border: 1px solid #e0e0e0; /* Light border color */
+  }
+  
+  /* ... (other CSS styles) ... */
+  
+  /* ... (other CSS styles) ... */
+  
+  
+  /* ... (remaining styles) ... */
+  
+  
+  /* ... (remaining styles) ... */
+    
